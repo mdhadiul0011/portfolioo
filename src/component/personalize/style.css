@@ -1,0 +1,47 @@
+.info-part{
+    padding: 80px 0;
+}
+
+.info_icon {
+    padding-right: 5px;
+}
+
+.info-body{
+    margin-top: 40px;
+}
+
+.info-body h3{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary-textcolor);
+}
+
+.info-body h3 span{
+    color: var(--main-color);
+}
+
+.details {
+    margin-top: 20px;
+    display: flex;
+}
+
+.details span {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--primary-textcolor);
+}
+
+.d-name{
+    width: 15%;
+    margin-right: 100px;
+}
+
+.d-color{
+    width: 5%;
+    margin-right: 10px;
+}
+
+.d-value{
+    width: 40%;
+}

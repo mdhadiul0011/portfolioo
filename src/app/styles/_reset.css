@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ol, ul{
+    list-style-type: none;
+}
+
+body{
+    background: var(--body-color);
+}
+
+
+/* ====================primary css is done=================== */
+
+h1 {
+    color: var(--primary-color);
+}

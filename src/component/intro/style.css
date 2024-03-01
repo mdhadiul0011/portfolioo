@@ -1,0 +1,99 @@
+.intro{
+    padding: 80px 0;
+}
+
+.home-icon{
+    margin-right: 5px;
+}
+
+.intro-head{
+    margin-top: 40px;
+}
+
+.intro-head h3{
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--primary-textcolor);
+}
+
+.intro-head h3 span{
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+.intro-head p{
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--primary-textcolor);
+}
+
+.intro-parra {
+    margin-top: 40px;
+    max-width: 550px;
+}
+
+.intro-parra p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--icon-color);
+    line-height: 30px;
+}
+
+.intro .rounded-text{
+    width: 170px;
+    height: 170px;
+    border: 1px solid var(--icon-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+    right: 0;
+}
+
+.intro .track-icon {
+    position: absolute;
+    color: var(--primary-textcolor);
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro .rotating-img {
+    animation: rotating 6s infinite linear;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    } to{
+        transform: rotate(359deg);
+    }
+}
+
+.intro .all-count {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    position: absolute;
+    top: 680px;
+    left: 100px;
+}
+
+.intro .countup{
+    font-size: 80px;
+    font-weight: 400;
+    color: var(--main-color);
+    padding: 8px 20px;
+    
+}
+
+.intro .count-part p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--icon-color);
+    text-align: center;
+}
+

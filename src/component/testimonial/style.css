@@ -1,0 +1,86 @@
+.testimonial {
+    padding: 80px 0;
+}
+
+.test-content {
+    margin-top: 40px;
+}
+
+.test-icon {
+    padding-right: 5px;
+}
+
+.test-content h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary-textcolor);
+}
+
+.test-content h3 span{
+    color: var(--main-color);
+}
+
+.client-cmnt {
+    margin-top: 40px;
+}
+
+.cmnt-item {
+    width: 70%;
+    height: 300px;
+    border: 1px solid var(--icon-color);
+    border-radius: 50px;
+    padding: 30px 30px;
+    margin: 0 auto;
+}
+
+.img{
+    width: 500px;
+    display: flex;
+}
+
+.client-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.client-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.client-name {
+    margin-top: 10px;
+}
+
+.client-name h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-textcolor);
+}
+
+.client-name p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--icon-color);
+    margin-top: 10px;
+}
+
+.client-name p span{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+.cmnt-details {
+    margin-top: 30px;
+}
+
+.cmnt-details p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--primary-textcolor);
+}

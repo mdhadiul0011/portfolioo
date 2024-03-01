@@ -1,0 +1,55 @@
+.skill-part{
+    padding: 80px 0;
+}
+
+.skill-icon{
+    padding-right: 5px;
+}
+
+.skill-part h3{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary-textcolor);
+    margin-top: 40px;
+}
+
+.skill-part .text{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.all-skill{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-item{
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    border: 1px solid var(--icon-color);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.skill-icons{
+    font-size: 50px;
+    color: var(--main-color);
+}
+
+.skills {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 90px;
+}
+
+.skills h3{
+    font-size: 24px;
+    color: var(--primary-textcolor);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}

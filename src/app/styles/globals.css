@@ -1,0 +1,18 @@
+@import './_reset.css';
+@import './_variables.css';
+
+@import '../../component/Layout/Navber/navber.css';
+@import '../../component/Layout/menubar/menubar.css';
+@import '../../component/Bio/style.css';
+@import '../../component/intro/style.css';
+@import '../../component/button/style.css';
+@import '../../component/pageAll/style.css';
+@import '../../component/about/style.css';
+@import '../../component/resume/style.css';
+@import '../../component/services/style.css';
+@import '../../component/skills/style.css';
+@import '../../component/portfolio/style.css';
+@import '../../component/personalize/style.css';
+@import '../../component/testimonial/style.css';
+@import '../../component/Footer/style.css';
+

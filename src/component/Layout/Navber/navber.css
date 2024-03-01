@@ -1,0 +1,68 @@
+.navber-part{
+    background: var(--body-color);
+    width: 60px;
+    height: 60vh;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    border: 1px solid var(--menubox-color);
+    border-radius: 70px;
+}
+
+.navber-part .nav-icons{
+    margin-top: 18px;
+}
+
+.icon{
+    color: var(--icon-color);
+    height: 20px;
+    width: 20px;
+    margin: 10px 20px;
+}
+
+.navber-part .nav-icons .icon:hover{
+    color: var(--main-color);
+}
+
+.icon-details{
+    position: relative;
+}
+
+.navber-part .nav-icons .icon-details .icon-name{
+    padding: 8px 15px;
+    text-align: center;
+    background: var(--icon-namecolor);
+    position: absolute;
+    top: 2px;
+    right: 100%;
+    border-radius: 15px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    transition: all .4s;
+    z-index: 999;
+    box-shadow: 3px 3px 3px #212225, -3px -3px 3px #3e3d3d;
+}
+
+.navber-part .nav-icons .icon-details .icon-name p{
+    color: var(--primary-textcolor);
+    font-size: 14px;
+}
+
+.navber-part .nav-icons .icon-details .icon-name::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    right: -12px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--icon-namecolor);
+    clip-path: polygon(0 30%, 0% 100%, 100% 59%);
+}
+
+.navber-part .nav-icons .icon-details:hover .icon-name{
+    opacity: 1;
+    visibility: visible;
+}
